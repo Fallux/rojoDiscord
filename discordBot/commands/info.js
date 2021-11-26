@@ -11,7 +11,7 @@ module.exports = {
                 {name: 'rollen', value: 'We hebben een Among Us en een Minecraft rol'},
                 {name: 'waarschuwing Syteem', value: 'We doen aan de 3 waarschuwingen en dan ban systeem'}
             )
-            .setFooter('make sure to check out the rules. And let the fun begin!');
+            .setFooter('Keep calm and let the fun begin!');
            
             message.channel.send({embeds: [newEmbed]});
     }
